@@ -1,4 +1,5 @@
 #!/bin/bash
+ssh melwaghf@Maupassant "cd /home/melwaghf/nosave/Projet_DR/Serv0/src ; javac serv0/HdfsServer.java; java serv0/HdfsServer"
 rm */*/*/*.class
 cd Serv0/src
 javac serv0/HdfsServer.java &
