@@ -13,7 +13,7 @@ public class Project {
 	public final static String PATH = "";
 	//public final static String[] HOSTS = {"localhost","localhost"}; 
 	public static String[] HOSTS ; 
-	public final static Integer NBHOSTS ;
+	public  static Integer NBHOSTS ;
     //public final static Integer[] PORTS = {2015, 2016, 2017, 2018, 2019};
 	public final static int[] PORTS = {2020,2021};
 	public static final String DATA = "/data/";
@@ -26,7 +26,7 @@ public class Project {
 	public static void main(String args[]) {
 		try {
 
-		File myfile = new File("config/configu.txt");
+		File myfile = new File(args[0]);
     	//FileInputStream raf = new FileInputStream(myfile);
         BufferedReader read = new BufferedReader(new FileReader(myfile));
 	    //int compteur = 0;
