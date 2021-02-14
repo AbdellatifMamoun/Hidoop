@@ -1,2 +1,2 @@
 # hidoop
-version simplifié de la platforme hadoop
+A platfrom to store and process Big Data,using MapReduce and HDFS, inspired by Hadoop.
